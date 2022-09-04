@@ -239,8 +239,8 @@ def evaluation(forecasted_df,epoch,resultsFile):
         save_file.write(saveText2)
 
 
-    f1 = '../dev'   #gold '.ann' dev files
-    f2 = saveFolder    #model predictions '.ann' files
+    f1 = '../dev'   #path for folder with gold '.ann' dev files
+    f2 = saveFolder    #path for folder with model predictions '.ann' files
     n2c2_eval_script.main(f1, f2, verbose=False,epoch=epoch,resultsFile=resultsFile)    #the evaluation script was provided by  the task organizers, we edited it a bit...
 
     #get micro and macro values
