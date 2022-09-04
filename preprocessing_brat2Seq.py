@@ -3,7 +3,7 @@
 # track 1, https://n2c2.dbmi.hms.harvard.edu/2022-track-1. This script is mainly for preprocessing for subtasks 2 (event) and 3 (context),
 # to create sequences with the form [context] @MEDICATION$ [context], the size of the context is decided using a window-based approach
 #the sequences can also be split sentense wise,
-#the window based approach is recommended
+#the window based approach is recommended.
 
 
 import csv
